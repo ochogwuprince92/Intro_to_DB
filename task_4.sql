@@ -1,0 +1,5 @@
+-- task_4.sql
+SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_DEFAULT, EXTRA
+FROM information_schema.COLUMNS
+WHERE TABLE_NAME = 'books' AND TABLE_SCHEMA = 'alx_book_store';
+
